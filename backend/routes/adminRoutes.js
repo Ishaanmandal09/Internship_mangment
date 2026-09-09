@@ -6,7 +6,7 @@ const {
   deleteUser, 
   allocateTeacher, 
   deleteInternship 
-} = require('../controllers/admincontroller');
+} = require('../controllers/adminController');
 const { authMiddleware, authorize } = require('../middleware/authMiddleware');
 
 router.route('/stats').get(authMiddleware, authorize('admin', 'teacher'), getAdminDashboardStats);
