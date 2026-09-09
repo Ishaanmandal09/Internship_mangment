@@ -1,0 +1,7 @@
+{
+  "name": "internship-management-system",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  }
+}
